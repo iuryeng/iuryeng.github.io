@@ -1,0 +1,301 @@
+
+/*----------------Body-------------------*/
+body {
+	margin : 0 auto;
+}
+
+/*-------------Navbar-------------*/
+#navbar{
+	position: fixed;
+	width: 100%;
+
+	top: 0;
+	height: 60px;	
+	background-color: #0945a5; 		
+}
+
+.navbar-link:hover{	
+	border-top: solid white;
+}
+
+.ul-navbar{
+	display: inline-flex;
+	flex-direction: row;
+	float: left;
+	margin-top: 30px;
+	border-bottom: solid 2px white;
+	font-size: 18px;
+}
+
+.ul-navbar > li{
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+.navbar-link{
+	text-decoration: none;
+	color: white;
+}
+
+
+/*-------------Hello-Im-web-design------------*/
+.strong-div{
+	background-color: white;
+	width: 280px;
+	margin-left: 100px;
+	border-radius: 10px;
+	top: 100px;
+
+}
+
+/*-------------Welcome-------------*/
+#welcome-section{
+	background-color: #0945a5; 
+	
+	height: 100vh;
+}
+
+.welcome-div{
+	width: 500px;
+	margin-left: 750px;
+	position:relative;
+	top: 118px;
+	border: solid;
+	color: white;
+	font-size: 25px;
+}
+
+.p-welcome{
+	color: white;
+	max-width: 500px;
+	margin-left: 100px;
+	text-align:justify;
+}
+
+/*-------------Services-------------*/
+@media only screen and (max-width: 600px) {
+.services-section > div{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+}
+
+#services {
+	padding-top: 50px;
+}
+
+.services-content{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.services-content > div{
+	margin: 40px;
+	border: solid 1px gray;
+	border-radius: 10px;
+}
+
+.card-service > div{
+	width: 250px;
+	position: relative;
+	left:27px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background: #0945a5;
+}
+
+.icon-service > i{
+	color: white;
+}
+
+.card-service > p{
+	max-width: 300px;
+}
+
+/*-------------Quote-------------*/
+.quote{
+	background-color: #0945a5;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 30px;
+	color: white;
+	font-size: 30px;
+}
+
+/*------------Project-------------------*/
+
+@media only screen and (max-width: 600px) {
+.projects-section> div{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+}
+
+#projects {padding-top: 50px;}
+
+.project-content{	
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.project-content > div{
+	margin: 40px;
+	padding-bottom: 10px;
+	border: solid 1px gray;
+	border-radius: 10px;
+}
+
+.project-content > p{
+	color: #0945a5;
+	font-size: 120px;
+}
+
+.project-tile{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 5px;	
+	width:  100px;
+	position: relative;
+	left: 55px;
+	background-color:#0945a5;
+	color: white;
+	margin-top: 0px;
+}	
+
+.project > a{
+	color: black;
+}
+
+.project > p{
+	max-width: 200px;
+}
+
+.h-work{
+	width: 60px;
+	padding:1px;
+	background:  #0945a5;
+}
+
+.p-work{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+/*------------Contact-------------------*/
+.hr-contact{
+	color: #0945a5;
+	border: solid 10px;
+	position: relative;
+	top: 15px;
+}
+
+.form-contact{	
+	text-align: center;
+}
+
+.contact-title{
+	color: white;
+	border-top:none;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 300px;	
+	position: relative;
+	left: 860px;
+	bottom: 5px;
+	background-color:#0945a5;
+}
+
+.contact-title > h1 {
+	width: 200px;
+	position: relative;
+	left: 40px;
+	padding: 10px;
+}
+
+.form-contact > h1 {
+	position: relative;
+	height:  12px;
+}
+
+form{padding-top: 30px;}
+
+input {
+	border: solid 1px gray;
+	border-radius: 10px;
+	text-align: center;
+}
+
+button{
+	margin-top: 10px;
+	width: 150px;
+	color: white;
+    border: none;
+	border-radius: 10px;
+	padding: 10px;
+	background-color:#0945a5;
+	cursor: pointer;
+}
+
+textarea{
+	width: 436px; 
+	height: 60px;
+ 	margin-top: 10px;
+	border: solid 1px gray;
+	border-radius: 10px;
+	text-align: center;
+	resize: none;
+}
+
+/*--------Typography---------------------*/
+.icons > a{
+margin-left: 10px;
+position: relative;
+left:  90px;
+color: white;
+}
+
+p{text-align: center;}
+
+h2{
+	text-decoration: underline;	
+	text-decoration-color: black;
+	color: #0945a5;
+}
+
+h1{text-align: center;}
+
+strong{
+	margin: 10px 10px;
+	color: #0945a5;
+	font-size: 20px;
+}
+
+/*--------Footer---------------------*/
+footer {
+	border: solid 1px #0945a5;
+	background-color:  #f9f9f9;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+

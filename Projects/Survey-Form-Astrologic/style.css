@@ -1,0 +1,212 @@
+
+
+body {  
+  background: #e4edf2;   
+  text-align: center; 
+  font-size: 30px;
+}
+
+.grid-image { 
+  grid-area: image;
+  background-image: url('https://i.pinimg.com/564x/0c/55/ba/0c55bae15cf5642a546f16ebd58cfab0.jpg');
+  background-repeat: no-repeat;
+}
+
+.grid-main { 
+  grid-area: main;
+  background: #ffffff;  
+  margin-right: 20px;  
+}
+
+.grid-container {  
+  background: white; 
+  display: grid;
+  grid-template-areas:    
+    ' image image image   main'
+    ' image image image main';
+  grid-gap: 1px;
+  grid-template-rows: 500px;   
+  margin: 0 auto;
+  width:1200px;
+  box-shadow: 2px 2px 10px 2px #D3D2D3;
+}
+
+.grid-container > div {  
+  text-align: center;
+  padding: 10px 0;
+  font-size: 25px;
+  font-family: arial;
+}
+
+.grid-main > div{
+  position: relative;   
+  margin: 0 auto;
+  width: 90%; 
+  height: 90%;
+  padding-top: 40px;
+  margin-left: 5px;
+  font-size: 2px;
+}
+
+
+.h-title{
+  position: relative; 
+  top:40px;  
+}
+
+.p-description{
+  position: relative;
+  top: 5px;  
+}
+
+.p-input-check{
+  position: relative;
+  bottom: 20px;
+  right: 60px;
+  top:0.5em;
+  font-size: 20px;
+}
+.input-radio{
+  position: relative;
+  right: 80px;
+  top:0.7em;
+}
+.label-form{
+  position: relative;  
+  font-size: 20px;
+  right: 20px;
+}
+
+.label-form-radio{
+  position: relative;  
+  font-size: 20px;
+  top:0.5em;
+  right: 80px;
+  vertical-align: vertical;
+}
+
+.label-form-check{
+  position: relative;
+  bottom:40px;
+  right: 115px;
+  top:0.1em;
+  font-size: 20px;
+}
+
+.checkbox-input{
+  position: relative;
+  bottom:20px;
+  right: 117px;
+  top:0.1em;
+  font-size: 20px; 
+}
+/*espacing for input elements form*/
+form input {
+  margin-bottom: 0.5em;
+}
+
+.form-input { 
+  position: relative;
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  font-size: 20px;  
+}
+
+.form-button{
+  position: relative; 
+  top:30px;
+  float: right;
+  left: 50px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;  
+}
+
+textarea { 
+  position: relative;
+  right: 10px;
+  bottom: 20px;
+  top:0.5em;;
+  vertical-align: top;
+  resize: none;
+ }
+
+
+/*change just first option select*/
+select:invalid,
+select option[value=""] {
+  color: #999;
+}
+
+/*placeholder color */
+/* Firefox */
+::placeholder {
+  color: #999;
+  opacity: 1; 
+}
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder { 
+ color: #999;
+}
+/* Microsoft Edge */
+::-ms-input-placeholder { 
+ color: #999;
+}
+
+/*hide shadow require*/
+input:required:invalid{    
+  box-shadow: none;
+}
+
+/*hide shadow input active*/
+input:focus {
+    outline: none;
+}
+
+/*Hide arrows input number in Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+        margin: 0;
+}
+
+/*Hide arrows input number in Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*Hide arrows input options select  */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+footer{
+  padding-top: 10px;
+  font-size: 15px;
+  font-family: monospace;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+
+
+

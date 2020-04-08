@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+		<title>BinDec-Calculator</title>
+	</head>
+	<body>
+		
+		<div id = "bin_dec">			
+			<header id="titulo"><span><br>BinDec-Calculator</span></header><br>			
+			<form>
+				<br>
+				<label for="decimal">Dec Number</label>
+				<input type="number" name="decimal">
+				<br>
+				<p id="decimal_binario"></p>
+				<button id="converter_binario">Convert</button>
+
+			</form>
+			<br>
+		        <hr>
+			<form>
+				<br>
+				<label for="binario">Bin Number</label>
+				<input type="number" name="binario">
+				<br>			
+				<p id="binario_decimal"></p>
+				<button id="converter_decimal">Convert</button>
+
+			</form>
+			<br>
+		</div>	
+
+	 <script src="app.js"></script>
+	</body>
+    <br>
+    <br>
+    <footer >
+        <a href="https://github.com/iuryeng/ProjectJs/tree/master/Projects/BinDec-Calculator/">Project on GitHub</a>
+        <a href="https://twitter.com/iurycoelho2">@iurycoelho2</a>
+    </footer>
+</html>
+
+<!-- Style CSS-->
+
+<style type="text/css">
+	
+  body {
+	background: #ecf1f5;
+	font:14px "Lucida Console", console-serif; 
+	text-align:center;
+
+}
+   #titulo{
+	   
+	background-color: #5dba9d;
+	height:60px;
+	text-align:center;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom:1px solid #000000;
+
+	}
+
+   span{
+	   
+	color:white;
+	font-size:25px;
+	}
+
+  input {
+
+	font-weight: 600;
+	text-align: center;
+        color: #adb8c2 ;
+	border: none;
+	border-bottom: 1px solid #000;
+	padding: 10px;
+	font-size: 20px;
+	background-color: transparent;
+}
+
+	
+  #bin_dec{  
+
+	width:740px;
+	margin:150px auto 0;
+	text-align:center;
+	background:#fff;
+	border-radius:15px;
+	border:1px solid #000000;
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+        -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+        box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+	position:relative;
+  }
+
+   label{
+	color:#adb8c2;
+	font-size:22px;
+	font-weight:bold;
+	display:block;
+   }
+
+    p{
+
+	color:#adb8c2;
+	font-size:20px;
+	font-weight:700;
+	display:block;
+     }
+	
+    button{
+	padding: 10px 20px;
+	border-radius: 15px;
+	border:1px solid #000000;
+	background-color: #5dba9d;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+
+     }
+</style>

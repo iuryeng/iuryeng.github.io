@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1 id="title" class="h-title">Astrological Form</h1>
+    <p id="description" class="p-description">predict worldly events based on your data</p>  
+    <div class="grid-container">
+      <div class="grid-image" ></div>
+      <div class="grid-main">
+        <div id="form-content">
+          <form id="survey-form" >          
+            <label id="name-label" class="label-form" for="name">Name:</label>
+            <input id="name" class="form-input" name="name" type="text" placeholder="name" required>
+            <br>  
+            <label id="email-label" class="label-form" for="email">Email:</label>        
+            <input id="email" class="form-input" name="email" type="email" placeholder="email" required >
+            <br>
+            <label id="number-label" class="label-form" for="number"> Age:</label>
+            <input id="number" class="form-input" name="number" type="number" placeholder="age" min="1" max="120" required >
+            <br>
+            <label  id="dropdown-label" class="label-form" for="select">Sign:</label>
+            <select id="dropdown" class="form-input" name="select" required>
+              <option value="" disabled selected>Select your sign.</option>
+              <option value="aries">Aries</option>
+              <option value="taurus">Taurus</option>     
+              <option value="gemini">Gemini</option>
+              <option value="cancer">Cancer</option>
+              <option value="leo">Leo</option>
+              <option value="virgo">Virgo</option>
+              <option value="libra">Scorpio</option>
+              <option value="sagittarius">Sagittarius</option>
+              <option value="capricorn">Capricorn</option>
+              <option value="aquarius">Aquarius</option>    
+              <option value="pisces">Pisces</option>   
+            </select> 
+           <br>    
+           <br>
+           <br>
+           <label class="label-form-radio" for="male">Gender:</label>
+           <input class="input-radio" type="radio" id="male" name="gender" value="male">
+           <label class="label-form-radio" for="male">Male</label>
+           <input class="input-radio" type="radio" id="female" name="gender" value="female">
+           <label class="label-form-radio"for="female">Female</label>
+           <input class="input-radio" type="radio" id="other" name="gender" value="other">
+           <label class="label-form-radio" for="other">Other</label>        
+           <p class="p-input-check">Please select your luck number range:</p>
+           <br>   
+           <input class="checkbox-input" type="checkbox" id="rage1" name="age" value="30">
+           <label class="label-form-check" for="rage1">01 - 30</label><br>
+           <input class="checkbox-input" type="checkbox" id="rage2" name="age" value="50">
+           <label class="label-form-check" for="rage2">30 - 50</label><br>               
+           <br>
+             <label class="label-form" for="suggestion">A sentence:</label>
+             <textarea id="suggestion" rows="2" cols="40"></textarea> 
+             <br>
+             <button id="submit" class="form-button" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>                
+    </body> 
+    <footer >
+      <p>
+for FreeCodeCamp by <a href="https://twitter.com/iurycoelho2">@iurycoelho2.</a><a href="https://github.com/iuryeng/webProjects/tree/master/Projects/Survey-Form-Astrologic"> Project on GitHub</a></p>
+
+        
+    </footer>
+</html>

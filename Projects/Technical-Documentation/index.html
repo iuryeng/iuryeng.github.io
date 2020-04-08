@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">	
+		<link href="main.css?version=12" /> <!-- enganando o cache chrome-->	
+	</head>
+	<body>
+		<header id="header" class="menu-header"> 
+			<img id="header-img" src="https://i.pinimg.com/originals/3d/4d/ae/3d4dae2d895bbaf530ccdd04e14f608d.png">
+			<nav id="navbar">
+				<header>
+					<h4>Js Object Documentation</h4>
+				</header>
+				<ul class="navbar-ul">
+					<li class="li-link"><a class="nav-link" href="#Introduction">Introduction</a></li>
+					<li class="li-link"><a class="nav-link" href="#Build">Build</a></li>
+					<li class="li-link"><a class="nav-link" href="#Access">Access</a></li>
+					<li class="li-link"><a class="nav-link" href="#Update">Update</a></li>
+					<li class="li-link"><a class="nav-link" href="#Delete">Delete</a></li>
+					<li class="li-link"><a class="nav-link" href="#References">References</a></li>
+				</ul>				
+			</nav>
+		</header>
+		<main id="main-doc">
+			<div class="horizontal-scroll">
+			  <div> 
+			  		<section class="main-section" id="Introduction">
+	   					<header>Introduction</header>
+	    				<article>
+	      					<p>A simple desing documentation created by iurycoelho. Contains Information about the implementation of objects in javascript.</p>
+							<p>You will learn how to implement the following basic aspects of Js programming:</p>
+							<br>
+							<ol>
+								<li>Build JavaScript Objects;</li><br>
+								<li>Accessing Object Properties with Dot Notation;</li><br>
+								<li>Updating Object Properties Passed;</li><br>
+								<li>Delete Properties from a JavaScript ObjectPassed.</li><br>
+							</ol>
+
+	    				</article>    
+					</section>
+			  </div>		
+			  <div> 
+			  		<section class="main-section" id="Build">
+	   					<header>Build</header>
+	    				<article>
+	      					<p> You may have heard the term object before.Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.</p>
+						    <p> Objects are useful for storing data in a structured way, and can  		represent real world objects, like a cat.</p>
+							<p>Here's a sample cat object:</p>
+							<code>var cat = {
+							  "name": "Whiskers",
+							  "legs": 4,
+							  "tails": 1,
+							  "enemies": ["Water", "Dogs"]
+							 };
+							</code>							
+	    				</article>    
+					</section>
+				</div>		
+			  	<div>
+				  	<section class="main-section" id="Access">
+		   					<header>Access</header>
+		    				<article>
+		      					<p>There are two ways to access the properties of an object: dot 	notation.</p>
+		      					<p>Dot notation is what you use when you know the name of the property you're trying to access ahead of time.</p>
+		      					<p>Here is a sample of using dot notation (.) to read an object's property:</p>
+		      					<code>
+		      						var myObj = {
+									  prop1: "val1",
+									  prop2: "val2"
+									};
+									var prop1val = myObj.prop1; // val1
+									var prop2val = myObj.prop2; // val2
+		      					</code>
+    						</article>    						
+				  	</section>
+			    </div>
+			  	<div>
+			  		<section class="main-section" id="Update">
+		   					<header>Update</header>
+		    				<article>
+		      					<p>After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.</p>
+		      					<p>For example, let's look at ourDog:</p>      					
+		      					<code>
+		      						var ourDog = {
+									  "name": "Camper",
+									  "legs": 4,
+									  "tails": 1,
+									  "friends": ["everything!"]
+									};
+		      					</code>
+		      					<p>Here's how we update his object's name property:</p>
+		      					<code>
+		      						ourDog.name = "Happy Camper";
+		      					</code>
+    						</article>    						
+				  	</section>
+			  	</div>
+			  	<div>
+			  		<section class="main-section" id="Delete">
+		   					<header>Delete</header>
+		    				<article>
+		      					<p>We can also delete properties from objects like this:</p>
+		      					<p>For example, let's look at ourDog:</p>      					
+		      					<code>
+		      						vvar ourDog = {
+									  "name": "Camper",
+									  "legs": 4,
+									  "tails": 1,
+									  "friends": ["everything!"],
+									  "bark": "bow-wow"
+									};
+								</code>
+								<p>Now delete "bark" property from ourDog:</p>
+								<code>
+									delete ourDog.bark;
+								</code>		      					
+    						</article>    						
+				  	</section>			  		
+			  	</div>
+			  	<div>
+			  		<section class="main-section" id="References">
+		   					<header>References</header>
+		    				<article>
+		      					<p>All references and documentation was taken from:</p>     	
+		      					<ul><li><a href="www.freecodecamp.org">FreeCodeCamp.</a></li></ul>						      		
+		      					<p class="p-reference"><i class="fab fa-free-code-camp fa-10x"></i></p>	      						      					
+    						</article>    						
+				  	</section>			  		
+			  	</div>
+	        </div>	
+	        <hr>
+			<footer class="footer-content">		
+			  for FreeCodeCamp
+			  <i class="fab fa-free-code-camp"></i><br><a href="https://codepen.io/iurycoelho" target="_blank">by @iurycoelho</a> 
+			</footer>			
+		</main>
+	</body>	
+</html>
+
+
+
+
+
