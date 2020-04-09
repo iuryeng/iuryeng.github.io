@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">	
+		<link href="main.css?version=12" /> <!-- enganando o cache chrome-->	
+	</head>
+	<body>
+		<header id="header" class="menu-header"> 		
+				<i class="fas fa-cannabis fa-4x"></i>
+			    <nav id="navbar">
+				<header>
+					<h4>Base Weed Information</h4>
+		        </header>
+				<ul class="navbar-ul">
+					<li class="li-link">
+						<button id="button-buildInfor">Get Weed</button>
+						<select id="dropdown" class="form-input" name="select" required>
+		                   <option value="" disabled selected>Select your weed.</option>	                  
+		                </select>
+		            </li>					
+				</ul>				
+			</nav>
+		</header>
+		<main id="main-doc">
+			<div class="horizontal-scroll">
+			  <div> 
+			  		<section class="main-section" >
+			  			<i class="fas fa-bong fa-2x" style="margin-top: 20px; margin-bottom: 10px; position: relative; left: 80px;"></i>
+	   					<header>Weed Table</header>
+						<article>			
+							 <table id="cannabis-table" class="cannabis-table-indicator">
+							    <tr>							    	
+								    <th>Id</th>									    
+									<th>Name</th>	
+									<th>Race</th>  
+									<th>Flavors</th> 
+									<th>Medical</th> 
+									<th>Negative</th> 
+									<th>Positive</th>										    
+								</tr>  
+								<tr>							    	
+								    <td id="id-weed">--</td>									    
+									<td id="name-weed">--</td>	
+									<td id="race-weed">--</td> 
+									<td id="flavors-weed">--</td> 
+									<td id="medical-weed">--</td> 
+									<td id="negative-weed">--</td> 
+									<td id="positive-weed">--</td> 
+
+																	    
+								</tr>  
+
+							</table>										
+						</article>					    				 
+					</section>	
+				</div>  	       	
+		</main>
+	</body>	
+    <script>
+        var botao = document.getElementById("button-buildInfor");
+        botao.addEventListener("click", buildInfor);   
+    </script>
+</html>
+
+
+
+
+

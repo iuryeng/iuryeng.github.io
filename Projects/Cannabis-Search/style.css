@@ -1,0 +1,150 @@
+
+body {
+  display: inline-flex; 
+  background-color: #262640;
+ }
+
+main{   
+  position: relative;  
+  width: 50%;
+  padding: 5px;
+  text-align: center;   
+}
+
+i{
+    width: 130px;
+    margin-left: 50px;
+    color: mediumseagreen;    
+}
+
+h4{
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 30px; 
+  font-family: monospace;
+  font-size: 15px;
+  position: relative;
+  bottom: 20px;
+  color: whitesmoke;
+}
+
+.li-link{
+  position: relative;
+  margin: 10px auto; 
+  right: 20px;
+  top: 30px;
+  list-style-type: none;  
+  font-family:  monospace;
+  font-size: 20px;
+}
+
+
+.navbar{
+    position: fixed;
+}
+
+.navbar-ul{
+    border-top: solid 2px mediumseagreen; 
+    text-align: center;
+    height: 300px;
+    width: 130px;
+    position: relative;
+    bottom: 25px;
+}
+
+
+.menu-header{   
+    height: 490px;
+    width: 130px;
+    padding: 20px;  
+    margin-top: 20px;
+}
+
+
+
+.main-section > header  {
+    font-family: monospace;
+    font-size: 35px;    
+    font-weight:20px;  
+    color:steelblue;
+    padding: 0.5px;
+    position: relative;
+    left: 100px;
+ 
+    
+}
+
+
+.main-section > article {
+    padding: 15px 16px;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+select{
+  border: solid;
+  color:steelblue;
+  width: 150px;
+  background-color: transparent;
+  font-size: 12px;
+  font-family: monospace;
+  position: relative;
+  right: 10px;
+
+}
+
+.cannabis-table-indicator th{ 
+  table-layout: fixed;
+  width: 40%;  
+  padding: 5px;
+  text-align: center;
+  border:solid;
+  border-color: mediumaquamarine;
+  background-color: transparent;
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 20px;
+  color:goldenrod;
+}
+
+
+
+
+.cannabis-table-indicator td{
+  table-layout: fixed;
+  width: 40%;   
+  padding: 5px;
+  text-align: center;
+  border:solid;
+  border-color: mediumaquamarine;
+  background-color: transparent;
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 20px;
+ 
+
+}
+
+button{
+  background-color: mediumseagreen;
+  border:none;
+  color:  #24252a;
+  padding: 5px ;
+  text-align: center;
+  text-decoration: none; 
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+  cursor: pointer;
+  position: relative;
+  bottom: 1px;
+}
+
+
+
+
+
+
+
+
