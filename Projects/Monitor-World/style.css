@@ -308,23 +308,24 @@ footer {
 
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 415px) {
   #title{font-size: 20px;}
   .cases-indicator-word {flex-direction: column; }
 
   .cases-indicator-countries{
-    margin-left: 6px;
-    width: 470px;
+    
+    width: 410px;
   }
  .container {flex-direction: column; }
   
   #bar-chart{
-    width: 470px;
+    width: 394px;
     margin-left: 5px;
+  
   }
 
  #statistic-content{
-  width: 470px;
+  width: 394px;
   
  }
 
@@ -332,29 +333,30 @@ footer {
 
 
  #map-indicator{
-    width: 470px;
-  margin-left: 5px;
+    width: 394px;
+
  }
 
- #chartCountryCases{width: 470px;}
+ #chartCountryCases{width: 410px;}
   body{
     overflow:auto;
     overflow-x: hidden;
   }
   svg{
-margin-left: 1px;
 
-    
-    width: 470px;
+
+    margin-left: 5px;
+    width: 394px;
    }
   header{flex-direction: column;
-    width: 470px;
-    margin-left: 5px;}
+    width: 394px;
+    }
 
   footer{margin-top: 15px;
-    width: 470px;
-    margin-left: 5px;} 
+    width: 394px;
+   } 
 }
+
 
 
 
