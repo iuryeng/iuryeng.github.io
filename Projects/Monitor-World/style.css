@@ -1,0 +1,357 @@
+{
+  box-sizing: border-box;
+}
+
+h3{
+  text-align: center;
+  color:#343c49;
+  
+}
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+
+
+}
+
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Estilo do  header - inidcadores no  mundo*/
+header{
+  background-color:whitesmoke;
+  padding: 8px;
+  text-align: center;
+  font-size: 35px;
+  color: #343c49;
+  border-bottom: solid 1px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#title{
+  margin-bottom: 10px;
+
+}
+
+
+
+#bar-chart{
+
+width: 600px;
+margin-left: 20px;
+
+}
+/* Conteudo*/
+.container{
+  display: -webkit-flex;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+ 
+
+}
+
+/* Estilo de inicadores laterais -- casos por pais */
+.cases-indicator-countries{
+  width: 430px;  
+  margin-left: 5px;
+  border: solid 1px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+
+}
+
+
+
+
+/*estilo da tabela*/
+
+.cases-indicator-countries        { overflow-y: auto; height: 455px; overflow-x: hide; }
+.cases-indicator-countries thead th { position: sticky; top: 0px; }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+
+th     { background:#eee; }
+
+
+
+.country-table-indicator{
+  width: 100%;  
+}
+
+.country-table-indicator th{ 
+ 
+  text-align: center;
+  background-color: mediumseagreen;
+  color: white;
+}
+
+.country-table-indicator tr {text-align: center;}
+
+.country-table-indicator tr:nth-child(even){background-color: #f2f2f2;}
+
+.country-table-indicator tr:hover {background-color: #ddd;}
+
+path{
+  stroke: whitesmoke;
+  stroke-width:0.5px;
+  fill:mediumseagreen;
+}
+
+svg{
+  
+
+  width:1000px;
+  height: 456px;
+  fill :white; 
+  margin-left: 25px;
+  margin-right: 5px;
+  border: solid 1px;
+  margin-top: 8px;
+  
+}
+
+svg rect {
+  width:1000px;
+  height: 456px;
+  fill :white; 
+}
+
+#card-legend{
+  position:absolute;
+  text-align: left;
+  font-size: 10px;
+  padding: 10px;
+  background-color: whitesmoke;
+  color:black;
+  border: solid 1px black;
+  width: auto;
+  opacity: 0; 
+}
+
+#content{
+  
+}
+
+
+#middle-menu{
+  position: relative;
+  border:solid;
+  width: 200px;
+  float: middle;
+  
+}
+
+#right-menu{
+  position: relative;
+  border:solid;
+  width: 300px;
+  float: right;
+  height: 200px;
+  
+}
+
+#card-legend{
+  position:absolute;
+  text-align: left;
+  font-size: 10px;
+  padding: 10px;
+  background-color: whitesmoke;
+  color:black;
+  border: solid 1px black;
+  width: auto;
+  opacity: 0; 
+}
+
+
+.cases-indicator-word{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+
+}
+
+.column-top-indicators-world{
+  float: left;
+  width: 300px;
+  margin: 5px;
+  border:solid  1px;
+  border-radius: 20px;
+ 
+}
+
+
+.column-top-indicators-world > div {
+border-left: solid;
+position: relative;
+top: 2px;
+}
+
+
+
+
+h2{
+  font-size: 15px;
+}
+
+
+p{
+  font-size: 20px;
+}
+
+h4{
+  color:rgb(52,60,73);
+   text-align: justify; 
+   position: relative; 
+   bottom: 10px;
+ margin-left: 25px;
+   font-size: 15px;
+}
+
+
+
+
+
+#chartCountryCases{
+ 
+  border:solid 1px;
+}
+
+#tests{
+  font-weight: bold;
+
+}
+
+#cases-1m{
+  font-weight: bold;
+}
+
+#tests-1m{
+  font-weight: bold;
+}
+
+#mortes-1m{
+  font-weight: bold;
+}
+
+#statistic-content{
+  border:solid 1px black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 96px;
+  width: 600px;
+
+  font-size: 12px;
+  color:lightslategray;
+}
+
+#statistic-country{
+
+  position: relative;
+  bottom: 25px;
+}
+
+
+
+
+.chart{
+ 
+ width: 440px;
+ height: 350px;
+position: relative;
+
+
+
+}
+
+#chart-canvas{
+
+  height: 300px;
+  position: relative;
+
+
+  
+}
+
+
+
+
+
+
+
+
+/* Style the footer */
+footer {
+  background-color: whitesmoke;
+
+  text-align: center;
+  color: #343c49;
+  margin:0 auto;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  width: 100%;
+  position: relative;
+  bottom: 12px;
+
+
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media screen and (max-width:500px){
+  #title{font-size: 20px;}
+  .cases-indicator-word {flex-direction: column; }
+
+  .cases-indicator-countries{
+    margin-left: 6px;
+    width: 470px;
+  }
+ .container {flex-direction: column; }
+  
+  #bar-chart{
+    width: 470px;
+    margin-left: 5px;
+  }
+
+ #statistic-content{
+  width: 470px;
+  
+ }
+
+
+
+ #map-indicator{
+    width: 470px;
+  margin-left: 5px;
+ }
+
+ #chartCountryCases{width: 470px;}
+  body{
+    overflow:auto;
+    overflow-x: hidden;
+  }
+  svg{
+margin-left: 1px;
+
+    
+    width: 470px;
+   }
+  header{flex-direction: column;}
+
+  footer{margin-top: 15px;} 
+}
+
+
+
+
