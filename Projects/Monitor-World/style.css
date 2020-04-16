@@ -308,35 +308,35 @@ footer {
 
 }
 
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media screen and (max-width:375px){
+@media only screen and (max-width: 300px) {
   #title{font-size: 20px;}
   .cases-indicator-word {flex-direction: column; }
 
   .cases-indicator-countries{
     margin-left: 6px;
-    width: 370px;
+    width: 470px;
   }
  .container {flex-direction: column; }
   
   #bar-chart{
-    width: 370px;
+    width: 470px;
     margin-left: 5px;
   }
 
  #statistic-content{
-  width: 370px;
+  width: 470px;
   
  }
 
 
 
+
  #map-indicator{
-    width: 370px;
+    width: 470px;
   margin-left: 5px;
  }
 
- #chartCountryCases{width: 370px;}
+ #chartCountryCases{width: 470px;}
   body{
     overflow:auto;
     overflow-x: hidden;
@@ -345,12 +345,17 @@ footer {
 margin-left: 1px;
 
     
-    width: 370px;
+    width: 470px;
    }
-  header{flex-direction: column;}
+  header{flex-direction: column;
+    width: 470px;
+    margin-left: 5px;}
 
-  footer{margin-top: 15px;} 
+  footer{margin-top: 15px;
+    width: 470px;
+    margin-left: 5px;} 
 }
+
 
 
 
