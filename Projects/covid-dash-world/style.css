@@ -282,6 +282,10 @@ a {
 /* Laptop */
 @media screen and (min-width: 1024px) and (max-height: 1310px) {
     document.body.style.zoom="67%";
+  body {
+    overflow-y: auto; /* Auto vertical scrollbar */
+    overflow-x: auto; /* Auto horizontal scrollbar */
+  }
 }
 
 
