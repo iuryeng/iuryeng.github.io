@@ -181,7 +181,7 @@ $.getJSON(settings, function(data){
    var world_data = [];
 
     $.each(data.countries_stat,function(key, value){
-      if (key >0){
+      
       world_data += '<tr>';      
       world_data += '<td>'+ value.country_name + '</td>';      
       world_data += '<td>'+ value.cases + '</td>'; 
@@ -189,7 +189,7 @@ $.getJSON(settings, function(data){
       world_data += '<td>'+ value.total_recovered + '</td>'; 
      // world_data += '<td>'+ '<button><i class="fas fa-chart-line"></button>' + '</td>';
       world_data += '</tr>';}
-    });
+    );
 
     $('#country-table').append(world_data + 1);
   });
