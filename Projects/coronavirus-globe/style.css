@@ -1,0 +1,71 @@
+body{
+	/*background-color: steelblue;*/
+	font-family: arial;
+	text-align: center;
+
+}
+
+h1, h3, p{
+	text-align: center;
+}
+
+path{
+	stroke: whitesmoke;
+	stroke-width:0.5px;
+	fill:mediumseagreen;
+}
+
+svg{
+	margin-top:70px;
+	border:solid 1px;	
+	border-color: black;
+	width:1000px;
+	height: 456px;
+	fill :white; 
+	
+	
+}
+
+svg rect {
+	width:1000px;
+	height: 456px;
+	fill :white; 
+}
+
+#card-legend{
+	position:absolute;
+	text-align: left;
+	font-size: 10px;
+	padding: 10px;
+	background-color: whitesmoke;
+	color:black;
+	border: solid 1px black;
+	width: auto;
+	opacity: 0;	
+}
+
+#content{
+	border:solid;
+}
+#left-menu{
+	position: relative;
+	border:solid;
+	width: 200px;	
+}
+
+#middle-menu{
+	position: relative;
+	border:solid;
+	width: 200px;
+	float: middle;
+	
+}
+
+#right-menu{
+	position: relative;
+	border:solid;
+	width: 300px;
+	float: right;
+	height: 200px;
+	
+}
