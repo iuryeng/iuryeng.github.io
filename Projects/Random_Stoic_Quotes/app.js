@@ -8,6 +8,10 @@ var total_quotes = document.getElementById("p0");
 var random_quote = document.getElementById("p1");
 var random_author = document.getElementById("p2");
 var  quotes = [
+	{
+    quote:"Produz para ti próprio uma definição ou descrição da coisa que te é apresentada, de modo a veres de maneira distintiva que tipo de coisa é na sua substância, na sua nudez, na sua completa totalidade, e diz a ti próprio se é seu nome apropriado, e os nomes das coisas de que foi composta, e nas quais irá resultar. Pois nada é mais produtivo para a elevação da alma, como ser-se capaz de examinar metódica e verdadeiramente cada objeto que te é apresentado na tua vida, e sempre observar as coisas de modo a ver ao mesmo tempo que universo é este, e que tipo de uso tudo nele realiza, e que valor todas as coisas têm em relação com o todo.",
+    author:"Marco Aurélio",
+},
 {
     quote:"A única coisa sobre a qual você tem controle é a sua mente. E isso lhe garante poder suficiente porque a sua mente é origem de todas as suas escolhas, ações e percepções",
     author:"Epicteto",
