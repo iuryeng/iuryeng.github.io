@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Músicas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .album-card {
+        width: 100%;
+        max-width: 500px;
+        background-color: #333;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+
+    .album-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .album-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .album-card h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .album-card p {
+        font-size: 18px;
+    }
+
+    audio {
+        width: 100%;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Iury Coelho: Filosofia, Músicas e Reflexões</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="album-card">
+                <img src="imagens\iury-foto-guitarra.jpeg" alt="Capa do Álbum 1">
+                <h2>Lua Cheia de 5aSeco</h2>
+                <p>cover - Iury Coelho</p>
+                <audio controls>
+                    <source src="musicas\luacheiamp3.wav" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+            <div class="album-card">
+                <img src="url-da-imagem-da-capa-do-album" alt="Capa do Álbum 2">
+                <h2>Nome do Álbum 2</h2>
+                <p>Artista 2</p>
+                <audio controls>
+                    <source src="url-da-faixa-de-audio" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+            <!-- Adicione mais cards de álbuns aqui -->
+        </div>
+    </main>
+</body>
+</html>
